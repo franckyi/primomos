@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "../data/nav-links";
+import PhoneIcon from "@mui/icons-material/Phone";
 
 export default function AppBar() {
   return (
@@ -22,15 +23,16 @@ export default function AppBar() {
           <Link
             key={label}
             href={href}
-            className="py-2 border-solid border-b-2 border-transparent hover:border-neutral-700 hover:text-neutral-100"
+            className="py-2 border-solid border-b-2 border-transparent hover:border-orange-400 hover:text-orange-400"
           >
             {label}
           </Link>
         ))}
         <a
           href="tel:503489722"
-          className="px-4 py-1 ml-2 bg-neutral-200 text-neutral-900 rounded-full hover:bg-white hover:text-green-700"
+          className="px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-neutral-900 hover:to-orange-400"
         >
+          <PhoneIcon />
           Umów się na wizytę
         </a>
       </nav>
