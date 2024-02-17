@@ -3,6 +3,7 @@ import Services from "./ui/services";
 import Training from "./ui/training";
 import PhoneIcon from "@mui/icons-material/Phone";
 import Video from "./ui/video";
+import HomeImages from "./ui/home/home-images";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
         <Video src="https://youtu.be/C3l0U2Fx1S4?si=3q4Bv2s4qsp7Oed0&t=65" />
       </div>
       <IntroText />
-
+      <div className="w-3/4">
+        <HomeImages />
+      </div>
       <Training />
       <a
         href="tel:503489722"
