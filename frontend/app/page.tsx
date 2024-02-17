@@ -3,8 +3,7 @@ import IntroText from "./ui/intro-text";
 import Image from "next/image";
 import Services from "./ui/services";
 import Training from "./ui/training";
-
-
+import PhoneIcon from "@mui/icons-material/Phone";
 
 export default function Home() {
   return (
@@ -12,16 +11,15 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between pt-0 p-24">
         <Services />
         <IntroText />
-        <Image
-          src={"/interior.webp"}
-          height={320}
-          width={480}
-          alt="Primo MOS logo"
-          priority
-          draggable="false"
-          className="my-16"
-        />
+
         <Training />
+        <a
+          href="tel:503489722"
+          className="my-16 px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-neutral-900 hover:to-orange-400"
+        >
+          <PhoneIcon />
+          Skontaktuj się z nami
+        </a>
       </main>
     </>
   );

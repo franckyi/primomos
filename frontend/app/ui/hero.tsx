@@ -1,11 +1,9 @@
 "use client";
 import AppBar from "./app-bar";
 import { HeroProps } from "../types/hero-props";
-import Numbers from "./numbers";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
 
-const baseClasses = "w-full min-h-screen bg-no-repeat";
+const baseClasses = "w-full bg-tools bg-no-repeat bg-cover overflow-hidden";
 let isHome = null;
 
 function Hero({ heading }: HeroProps) {
@@ -13,7 +11,7 @@ function Hero({ heading }: HeroProps) {
   isHome = pathName === "/" ? true : false;
 
   let heroClasses: string | null = null;
-  heroClasses = isHome ? "bg-tools bg-cover" : "bg-stone-900 min-h-80";
+  heroClasses = isHome ? "min-h-screen" : "h-40";
 
   return (
     <header className={baseClasses + " " + heroClasses}>

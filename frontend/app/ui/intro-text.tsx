@@ -1,3 +1,4 @@
+const heading = "Twojej destynacji!";
 const text1 = `Gdzie pasja i profesjonalizm spotykają się, by zapewnić Ci niezapomniane doświadczenie fryzjerskie. Nasz salon, położony w sercu Gdańska przy ul. Romana Dmowskiego 6, istnieje na rynku już ponad 6 lat, zdobywając uznanie i lojalność klientów. Nasza misja to nie tylko strzyżenie, ale tworzenie stylu, który podkreśli Twój indywidualizm i charakter. W Primo MOS Barber Shop każda wizyta to więcej niż usługa – to doświadczenie, które zostawia trwałe wrażenie. Nasz zespół profesjonalnych barberów, wykorzystując najnowsze techniki i najlepszej jakości produkty, zapewni Ci wyjątkową opiekę i doradztwo.
               Ponadto, w Primo MOS Barber Shop oferujemy szeroki zakres kursów i szkoleń dla tych, którzy chcą zgłębić tajniki barberingu lub podnieść swoje umiejętności na wyższy poziom. Nasze warsztaty są prowadzone przez doświadczonych specjalistów, którzy dzielą się swoją wiedzą i pasją, aby inspirować kolejne pokolenia barberów.`;
 
@@ -9,9 +10,12 @@ const text3 = `Odkryj Primo MOS Barber Shop – miejsce, gdzie każdy mężczyzn
 export default function IntroText() {
   return (
     <>
-      <div className="p-8 pl-8 lg:my-16 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-black to-orange-400">
-        Twojej destynacji!
-      </div>
+      <h2
+        id="onas"
+        className="p-8 pl-8 lg:my-16 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-black to-orange-400"
+      >
+        {heading}
+      </h2>
       <section className="flex flex-col gap-16 lg:flex-row p-4 tracking-wide text-neutral-400">
         <p
           className="lg:w-3/4 lg:pl-16 lg:text-xl first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
