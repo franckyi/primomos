@@ -1,14 +1,22 @@
+<h2></h2>;
+const heading = "Regulamin";
+
 function Regulamin() {
   return (
-    <section>
-      <h2>Regulamin</h2>
-      <p>
+    <section className="px-24 pb-24 text-neutral-400">
+      <h2
+        id="szkolenie"
+        className="p-8 pl-8 lg:my-16 w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-black to-orange-400"
+      >
+        {heading}
+      </h2>
+      <p className="my-8">
         Niniejszy Regulamin stanowi Ogólne Warunki usług świadczonych przez
         Primo Mo’s Barber Shop Muath Tradat w zakresie realizacji szkoleń
         fryzjersko-barberskich. Decydując się na udział w szkoleniu
         Klient/Zlecający/Kursant/Model akceptuje poniższy Regulamin.
       </p>
-      <ul>
+      <ul className="list-disc">
         <li>
           Podmiotem przeprowadzającym szkolenia Primo Mo’s Barber Shop Muath
           Tradat *, zwanym dalej „Organizatorem” i „Administratorem”, jest Salon
@@ -131,7 +139,7 @@ function Regulamin() {
       <p>
         Każda osoba, której dane osobowe Administrator przetwarza, ma prawo do:
       </p>
-      <ul>
+      <ul className="list-disc">
         <li>
           żądania dostępu do swoich danych osobowych, ich sprostowania,
           usunięcia lub ograniczenia przetwarzania lub prawo do wniesienia
@@ -347,6 +355,7 @@ function Regulamin() {
         Szkoleniowym, cały zakres, nazwy kursów – Szkolenia Fryzjerstwa
         Męskiego/Barberingu Primo Mos Barber Shop Muath Tradat, są objęte
         prawami autorskimi i nie podlegają kopiowaniu, w całości jak i części.
+        <br />
         <br />
         **Klauzula
         <br /> Wszelkie prawa zastrzeżone. Bez zgody autora zabronione jest

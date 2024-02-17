@@ -80,7 +80,7 @@ function Training() {
             zachowania pięknego wyglądu i kondycji włosów.
           </div>
           <br />
-          <div className="bg-orange-400 text-black p-8">
+          <div className="p-8 bg-orange-400 text-black font-bold">
             Pomogę Ci co zrobić z brodą i jak doporowadzić ją do porządku. Jest
             oczywiście szereg precyzyjnych zabiegów, to przede wszystkim
             trymowanie brody, czyli nadanie kształtu, skrócenie, odpowiednie

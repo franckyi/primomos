@@ -11,7 +11,7 @@ function Hero({ heading }: HeroProps) {
   isHome = pathName === "/" ? true : false;
 
   let heroClasses: string | null = null;
-  heroClasses = isHome ? "min-h-screen" : "h-40";
+  heroClasses = isHome ? "min-h-screen" : "lg:h-48";
 
   return (
     <header className={baseClasses + " " + heroClasses}>
