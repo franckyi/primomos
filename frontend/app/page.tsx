@@ -1,9 +1,7 @@
 import IntroText from "./ui/intro-text";
-import Image from "next/image";
 import Services from "./ui/services";
 import Training from "./ui/training";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { images } from "./data/home-images";
 import Video from "./ui/video";
 
 export default function Home() {
@@ -14,21 +12,7 @@ export default function Home() {
         <Video src="https://youtu.be/C3l0U2Fx1S4?si=3q4Bv2s4qsp7Oed0&t=65" />
       </div>
       <IntroText />
-      <section className="lg:w-6/6 flex flex-col lg:flex-row">
-        {images.length > 0 &&
-          images.map((img) => (
-            <Image
-              key={img.id}
-              src={img.src}
-              height={480}
-              width={320}
-              alt={img.alt}
-              priority
-              draggable="false"
-              className="lg:w-1/6 h-auto object-cover"
-            />
-          ))}
-      </section>
+
       <Training />
       <a
         href="tel:503489722"

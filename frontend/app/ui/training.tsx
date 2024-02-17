@@ -21,7 +21,7 @@ function Training() {
     <section className="mx-8 lg:mx-24">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 text-center"
+        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 dark:to-orange-400 text-center"
       >
         {heading}
       </h2>
