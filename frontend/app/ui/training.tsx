@@ -18,10 +18,10 @@ function getIntro() {
 
 function Training() {
   return (
-    <section className="mx-24">
+    <section className="mx-8 lg:mx-24">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 my-16 w-1/3 text-3xl lg:text-5xl ml-auto bg-gradient-to-l from-black to-orange-400"
+        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r text-right from-black to-orange-400"
       >
         {heading}
       </h2>

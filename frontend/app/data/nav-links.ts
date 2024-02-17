@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
-  { href: "/", label: "Strona główna" },
+  { href: "/", label: "Home" },
   { href: "/#onas", label: "O nas" },
   { href: "/#szkolenie", label: "Szkolenie" },
-  { href: "/regulamin", label: "Regulamin Szkolenie" },
+  { href: "/regulamin", label: "Regulamin" },
 ];

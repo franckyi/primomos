@@ -4,13 +4,17 @@ import Services from "./ui/services";
 import Training from "./ui/training";
 import PhoneIcon from "@mui/icons-material/Phone";
 import { images } from "./data/home-images";
+import Video from "./ui/video";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col gap-16 items-center justify-between pt-0">
+    <main className="flex min-h-screen flex-col gap-4 lg:gap-16 items-center justify-between pt-0">
       <Services />
+      <div className="mb-16 lg:mb-8 lg:p-8 border border-4 border-orange-400">
+        <Video src="https://youtu.be/C3l0U2Fx1S4?si=3q4Bv2s4qsp7Oed0&t=65" />
+      </div>
       <IntroText />
-      <section className="w-6/6 flex flex-col lg:flex-row">
+      <section className="lg:w-6/6 flex flex-col lg:flex-row">
         {images.length > 0 &&
           images.map((img) => (
             <Image
@@ -21,7 +25,7 @@ export default function Home() {
               alt={img.alt}
               priority
               draggable="false"
-              className="w-1/6 h-auto object-cover"
+              className="lg:w-1/6 h-auto object-cover"
             />
           ))}
       </section>

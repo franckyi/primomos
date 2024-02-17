@@ -1,6 +1,6 @@
 function Services() {
   return (
-    <section className="mx-24 my-16 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left border border-orange-1">
+    <section className="m-8 lg:mx-24 my-16 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left border border-orange-1">
       <div className="group rounded-lg border border-transparent p-8 m-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-orange-400 hover:dark:bg-neutral-800/30">
         <h2 className="mb-3 text-2xl font-semibold">
           Wiedza{" "}
