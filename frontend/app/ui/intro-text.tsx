@@ -16,20 +16,20 @@ export default function IntroText() {
       >
         {heading}
       </h2>
-      <section className="flex flex-col gap-16 lg:flex-row p-4 tracking-wide text-neutral-400">
+      <div className="flex flex-col gap-16 lg:flex-row p-4 tracking-wide text-neutral-400">
         <p
-          className="lg:w-3/4 lg:pl-16 lg:text-xl first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
-        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800"
+          className="p-8 lg:w-3/4 lg:pl-16 lg:text-xl first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
+        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800 hover:bg-neutral-950"
         >
           {text1}
         </p>
         <p
-          className="lg:w-3/4 lg:pl-16 lg:text-xl first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
-        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800"
+          className="p-8 lg:w-3/4 lg:pl-16 lg:text-xl first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
+        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800 hover:bg-neutral-950"
         >
           {text2}
         </p>
-      </section>
+      </div>
       <p className="w-2/4 mx-auto my-16 p-8 bg-orange-400 text-black text-2xl font-bold italic">
         {text3}
       </p>
