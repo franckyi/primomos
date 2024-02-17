@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { NAV_LINKS } from "../data/nav-links";
+import { NAV_LINKS } from "../../data/nav-links";
 import PhoneIcon from "@mui/icons-material/Phone";
+import "./app-bar.css";
 
 export default function AppBar() {
   return (
@@ -14,6 +15,7 @@ export default function AppBar() {
         alt="Primo MOS logo"
         priority
         draggable="false"
+        className="app-bar-logo"
       />
       <nav
         className="flex items-center flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 p-3 lg:px-4 lg:pl-12 lg:w-full text-xs lg:text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-300 uppercase"

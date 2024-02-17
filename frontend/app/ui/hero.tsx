@@ -1,5 +1,5 @@
 "use client";
-import AppBar from "./app-bar";
+import AppBar from "./app-bar/app-bar";
 import { HeroProps } from "../types/hero-props";
 import { usePathname } from "next/navigation";
 
