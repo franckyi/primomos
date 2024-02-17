@@ -9,10 +9,10 @@ const text3 = `Odkryj Primo MOS Barber Shop – miejsce, gdzie każdy mężczyzn
 
 export default function IntroText() {
   return (
-    <>
+    <section className="mx-24">
       <h2
         id="onas"
-        className="p-8 pl-8 lg:my-16 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-black to-orange-400"
+        className="p-8 pl-8 lg:my-16 w-2/4 text-3xl lg:text-5xl mr-auto text-right bg-gradient-to-r from-black to-orange-400"
       >
         {heading}
       </h2>
@@ -30,7 +30,9 @@ export default function IntroText() {
           {text2}
         </p>
       </section>
-      <p className="my-16 p-8 bg-orange-400 text-black text-2xl">{text3}</p>
-    </>
+      <p className="w-2/4 mx-auto my-16 p-8 bg-orange-400 text-black text-2xl font-bold italic">
+        {text3}
+      </p>
+    </section>
   );
 }

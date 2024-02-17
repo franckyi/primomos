@@ -18,17 +18,17 @@ function getIntro() {
 
 function Training() {
   return (
-    <section>
+    <section className="mx-24">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 lg:my-16 w-1/3 text-3xl lg:text-5xl ml-auto bg-gradient-to-l from-black to-orange-400"
+        className="p-8 pl-8 my-16 w-1/3 text-3xl lg:text-5xl ml-auto bg-gradient-to-l from-black to-orange-400"
       >
         {heading}
       </h2>
-      <div className="my-16 flex flex-col lg:flex-row gap-16">
+      <div className="my-24 flex flex-col lg:flex-row gap-16">
         <p className="text-2xl italic text-orange-400">
           <span>
-            <FormatQuoteIcon className="text-8xl" />
+            <FormatQuoteIcon className="block text-8xl" />
           </span>
           Posiadam uprawnienia z zakresu metodyki szkolenia osób dorosłych i
           organizacji szkoleń, a także uprawnienia dla Instruktorów praktycznej
@@ -46,9 +46,9 @@ function Training() {
         />
       </div>
 
-      <div className="my-16 flex flex-col lg:flex-row bg-orange-400">
+      <div className="my-24 flex flex-col lg:flex-row bg-orange-400">
         <Image
-          src={"/szkol.webp"}
+          src={"/img (9).webp"}
           height={366}
           width={480}
           alt="Szkolenie"
@@ -57,27 +57,33 @@ function Training() {
           className="inline"
         />
         <p>
-          <span className="block p-8 text-2xl text-black font-bold italic">
+          <span className="block pt-0 p-8 text-2xl text-black font-bold uppercase">
             <br />
             Jak zdobyć wyższy stopień barberignu… <br />
-            Zapraszam pomogę Ci!
+            Zapraszam pomogę Ci
           </span>
           <div className="bg-neutral-900 text-neutral-200 p-8">
             Jako instytucja szkoleniowa jesteśmy wpisani do RIS pod numerem
             22.22/00212/2022.
             <br />
-            Gdyż dla mnie BARBERING to nie tylko strzyżenie, to jest cała
-            filozofia, cała otoczka, rodzaj rytuału – taki męski świat gdzie w
-            salonie główną rolę gra BARBER.
+            Gdyż dla mnie{" "}
+            <strong className="font-bold text-orange-400 italic">
+              BARBERING to nie tylko strzyżenie, to jest cała filozofia
+            </strong>
+            , cała otoczka, rodzaj rytuału – taki męski świat gdzie w salonie
+            główną rolę gra BARBER.
             <br />
             Nauczę Cię co można zrobić z włosami, odpowiednio dobrane cięcie
             musi pasować do klienta – do jego stylu, kształtu twarzy. Dlatego,
             aby osiągnąć zamierzony efekt trzeba otworzyć się na potrzeby i
-            oczekiwania klienta. Strzyżenie męskie musi być wykonane z
-            wykorzystaniem odpowiednich technik i precyzji przez doświadczonego
-            Barbera. Liczy się każdy najmniejszy ruch maszynką lub nożyczkami, a
-            do tego właściwa pielęgnacja włosów jest bardzo istotna dla
-            zachowania pięknego wyglądu i kondycji włosów.
+            oczekiwania klienta.{" "}
+            <strong className="font-bold text-orange-400 italic">
+              Strzyżenie męskie musi być wykonane z wykorzystaniem odpowiednich
+              technik i precyzji przez doświadczonego Barbera
+            </strong>
+            . Liczy się każdy najmniejszy ruch maszynką lub nożyczkami, a do
+            tego właściwa pielęgnacja włosów jest bardzo istotna dla zachowania
+            pięknego wyglądu i kondycji włosów.
           </div>
           <br />
           <div className="p-8 bg-orange-400 text-black font-bold">
