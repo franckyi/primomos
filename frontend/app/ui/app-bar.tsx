@@ -30,7 +30,7 @@ export default function AppBar() {
         ))}
         <a
           href="tel:503489722"
-          className="px-4 py-4 ml-2 text-black rounded-full bg-orange-400 lg:bg-gradient-to-r lg:from-orange-400 lg:to-neutral-900 hover:to-orange-400 font-bold"
+          className="px-4 py-4 ml-2 text-black rounded-full bg-orange-400 dark:lg:bg-gradient-to-r dark:lg:from-orange-400 dark:lg:to-neutral-900 dark:hover:to-orange-400 font-bold"
         >
           <PhoneIcon />
           Umów się na wizytę

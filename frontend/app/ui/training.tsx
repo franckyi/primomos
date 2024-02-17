@@ -6,7 +6,7 @@ function getIntro() {
   return (
     <p className="w-3/4">
       Jestem dyplomowanym Barberem i{" "}
-      <em className="text-orange-400">
+      <em className="text-orange-400 font-bold">
         chcę się podzielić moją wiedzą i dużym doświadczeniem
       </em>{" "}
       jakie zdobyłem na przestrzeni ostatnich kilkudziesięciu lat, moja ojczysta
@@ -21,12 +21,12 @@ function Training() {
     <section className="mx-8 lg:mx-24">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r text-right from-black to-orange-400"
+        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 text-center"
       >
         {heading}
       </h2>
       <div className="my-24 flex flex-col lg:flex-row gap-16">
-        <p className="text-2xl italic text-orange-400">
+        <p className="text-2xl italic text-orange-400 font-bold">
           <span>
             <FormatQuoteIcon className="block text-8xl" />
           </span>
