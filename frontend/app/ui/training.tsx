@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import { Diversity1Sharp } from "@mui/icons-material";
 
 const heading = "Szkolenie";
 function getIntro() {
@@ -56,15 +57,16 @@ function Training() {
           draggable="false"
           className="inline"
         />
-        <p>
-          <span className="block pt-0 p-8 text-2xl text-black font-bold uppercase">
-            <br />
-            Jak zdobyć wyższy stopień barberignu… <br />
+        <div>
+          <span className="block mt-8 pt-0 p-8 text-2xl text-black font-bold uppercase">
+            Jak zdobyć wyższy stopień barberingu… <br />
             Zapraszam pomogę Ci
           </span>
           <div className="bg-neutral-900 text-neutral-200 p-8">
-            Jako instytucja szkoleniowa jesteśmy wpisani do RIS pod numerem
-            22.22/00212/2022.
+            <p className="p-4 border border-orange-400 border-solid border-2 rounded text-orange-400 text-center">
+              Jako instytucja szkoleniowa jesteśmy wpisani do RIS pod numerem
+              22.22/00212/2022
+            </p>
             <br />
             Gdyż dla mnie{" "}
             <strong className="font-bold text-orange-400 italic">
@@ -98,7 +100,7 @@ function Training() {
             konturów brody brzytwą, a więc wyznaczamy miejsce, gdzie ta broda
             powinna się zaczynać i powinna się kończyć.
           </div>
-        </p>
+        </div>
       </div>
       <p>
         Słuchamy Twoich potrzeb – to pierwszy i najważniejszy krok do idealnej
