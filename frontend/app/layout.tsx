@@ -4,6 +4,7 @@ import { poppins } from "./ui/fonts";
 import Hero from "./ui/hero";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Primo MOS Barber Shop",
@@ -23,6 +24,15 @@ export default function RootLayout({
         <Hero heading={heading} />
         {children}
         <footer className="p-8 text-center bg-orange-400 text-black">
+          <Image
+            src={"/logo.svg"}
+            height={80}
+            width={80}
+            alt="Primo MOS logo"
+            priority
+            draggable="false"
+            className="mx-auto"
+          />
           Primo MOS Barber Shop{" "}
           <a
             title="Facebook"
