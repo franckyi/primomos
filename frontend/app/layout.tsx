@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { poppins } from "./ui/fonts";
 import Hero from "./ui/hero";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 export const metadata: Metadata = {
   title: "Primo MOS Barber Shop",
@@ -20,6 +22,27 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Hero heading={heading} />
         {children}
+        <footer className="p-8 text-center bg-orange-400 text-black">
+          Primo MOS Barber Shop{" "}
+          <a
+            title="Facebook"
+            href="https://www.facebook.com/PrimoMosBarberShop"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+          >
+            <FacebookIcon />
+          </a>
+          <a
+            title="Instagram"
+            href="https://www.instagram.com/primomosbarbershop/"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="ml-1"
+          >
+            <InstagramIcon />
+          </a>
+          <p> ul. Romana Dmowskiego 6, 80-243 Gdańsk</p>
+        </footer>
       </body>
     </html>
   );
