@@ -1,4 +1,3 @@
-<h2></h2>;
 const heading = "Regulamin";
 
 function Regulamin() {
