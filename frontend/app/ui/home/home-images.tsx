@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function HomeImages() {
   return (
-    <section className="lg:w-6/6 flex flex-col lg:flex-row">
+    <section className="mx-auto flex flex-col lg:flex-row">
       {images.length > 0 &&
         images.map((img) => (
           <Image

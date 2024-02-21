@@ -14,7 +14,7 @@ export default function Home() {
         <Video src="https://youtu.be/C3l0U2Fx1S4?si=3q4Bv2s4qsp7Oed0&t=65" />
       </div> */}
       <IntroText />
-      <div className="w-3/4">
+      <div className="2xl:mx-80">
         <HomeImages />
       </div>
       <Training />

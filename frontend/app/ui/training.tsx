@@ -1,6 +1,5 @@
 import Image from "next/image";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
-import { Diversity1Sharp } from "@mui/icons-material";
 
 const heading = "Szkolenie";
 function getIntro() {
@@ -19,7 +18,7 @@ function getIntro() {
 
 function Training() {
   return (
-    <section className="mx-8 lg:mx-24">
+    <section className="mx-8 lg:mx-24 2xl:mx-80">
       <h2
         id="szkolenie"
         className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 dark:to-orange-400 text-center"

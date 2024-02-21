@@ -9,7 +9,7 @@ const text3 = `Odkryj Primo MOS Barber Shop – miejsce, gdzie każdy mężczyzn
 
 export default function IntroText() {
   return (
-    <section className="mx-8 lg:mx-24">
+    <section className="mx-8 lg:mx-24 2xl:mx-80">
       <h2
         id="onas"
         className="p-8 lg:pl-8 mb-8 lg:my-16 w-full lg:w-2/4 text-3xl lg:text-5xl lg:mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 dark:to-orange-400 text-center"
@@ -19,13 +19,13 @@ export default function IntroText() {
       <div className="lg:p-4 flex flex-col gap-16 lg:flex-row tracking-wide dark:text-neutral-400">
         <p
           className="lg:p-8 lg:w-3/4 lg:pl-16 first-letter:text-5xl lg:first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
-        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800 lg:hover:bg-neutral-200 dark:lg:hover:bg-neutral-950"
+        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-200 dark:border-neutral-800 lg:hover:bg-neutral-200 dark:lg:hover:bg-neutral-950"
         >
           {text1}
         </p>
         <p
           className="lg:p-8 lg:w-3/4 lg:pl-16 first-letter:text-5xl lg:first-letter:text-2xl lg:first-letter:text-7xl first-line:text-orange-400
-        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-800 lg:hover:bg-neutral-200 dark:lg:hover:bg-neutral-950"
+        first-letter:mr-3 first-letter:float-left lg:border-l-2 border-neutral-200 dark:border-neutral-800 lg:hover:bg-neutral-200 dark:lg:hover:bg-neutral-950"
         >
           {text2}
         </p>
