@@ -5,7 +5,7 @@ function Regulamin() {
     <section className="mx-8 lg:mx-24 lg:px-24 pb-24 text-neutral-400">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 lg:my-16 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-black to-orange-400"
+        className="p-8 pl-8 lg:my-16 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 dark:to-orange-400 text-black dark:text-white text-center"
       >
         {heading}
       </h2>
