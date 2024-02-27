@@ -1,7 +1,9 @@
 "use client";
 import ReactPlayer from "react-player/youtube";
-import { VideoProps } from "../types/video-props";
 
+interface VideoProps {
+  src: string;
+}
 function Video({ src }: VideoProps) {
   return (
     <ReactPlayer

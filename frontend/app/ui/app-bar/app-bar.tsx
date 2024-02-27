@@ -1,21 +1,20 @@
-// "use client";
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "../../data/nav-links";
 import PhoneIcon from "@mui/icons-material/Phone";
 import "./app-bar.css";
-import ThemeSwitcher from "../common/theme-switcher";
+import ThemeSwitcher from "../common/theme-switcher/theme-switcher";
 import { useContext } from "react";
 // import { ThemeContext } from "../../layout";
 
 interface AppBarProps {
-  toggleTheme: () => void;
+  handleThemeToggleClick: () => void;
 }
 
-function AppBar() {
-  // const toggleTheme = useContext(ThemeContext);
+function AppBar({ handleThemeToggleClick }: AppBarProps) {
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:gap-8 top-0 lg:top-8 z-50 max-md:p-8 lg:pt-8 lg:ml-80">
+    <div className="absolute flex flex-col lg:flex-row items-center lg:gap-8 top-0 lg:top-4 z-50 max-md:p-8 lg:ml-80">
       <Image
         src={"/logo.svg"}
         height={120}
@@ -38,8 +37,7 @@ function AppBar() {
             {label}
           </Link>
         ))}
-        {/* <button onClick={() => toggleTheme()}>toggle</button> */}
-        {/* <ThemeSwitcher /> */}
+        <ThemeSwitcher handleThemeToggleClick={handleThemeToggleClick} />
         <a
           href="tel:503489722"
           className="px-4 py-4 ml-2 text-black rounded-full bg-orange-400 dark:lg:bg-gradient-to-r dark:lg:from-orange-400 dark:lg:to-neutral-900 dark:hover:to-orange-400 font-bold"

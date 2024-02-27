@@ -22,7 +22,7 @@ function Services() {
         </h3>
         <p className={`m-0 max-w-[30ch] text-sm`}>
           Pasja i profesjonalizm umożliwiają nam kreowanie nowych stylizacji.
-        </p>``
+        </p>
       </div>
 
       <div className="group rounded-lg border border-transparent p-8 m-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-orange-400 hover:dark:bg-neutral-800/30">
