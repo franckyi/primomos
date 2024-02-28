@@ -6,7 +6,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Image from "next/image";
 import AppBar from "./ui/common/app-bar/app-bar";
-import { Context, createContext, useContext, useState } from "react";
+import { Context, createContext, useState } from "react";
 
 const heading = "Primo MOS";
 const ThemeContext: Context<null | string> = createContext<null | string>(null);
