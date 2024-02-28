@@ -1,4 +1,4 @@
-@import "../animations/spin";
+@import "../../animations/spin";
 
 .app-bar-logo {
   animation: spin 3s linear infinite;

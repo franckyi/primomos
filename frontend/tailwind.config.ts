@@ -9,10 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        tools: "url('/tools.webp')",
+        hero: "url('/hero.webp')",
+        "hero-light": "url('/hero-light.webp')",
       },
     },
   },

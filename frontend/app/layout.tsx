@@ -5,7 +5,7 @@ import Hero from "./ui/hero";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Image from "next/image";
-import AppBar from "./ui/app-bar/app-bar";
+import AppBar from "./ui/common/app-bar/app-bar";
 import { Context, createContext, useContext, useState } from "react";
 
 const heading = "Primo MOS";

@@ -4,7 +4,7 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 const heading = "Szkolenie";
 function getIntro() {
   return (
-    <p className="w-3/4">
+    <p className="w-3/4 text-neutral-800 dark:text-neutral-500">
       Jestem dyplomowanym Barberem i{" "}
       <em className="text-orange-400 font-bold">
         chcę się podzielić moją wiedzą i dużym doświadczeniem
@@ -21,7 +21,7 @@ function Training() {
     <section className="mx-8 lg:mx-24 2xl:mx-80">
       <h2
         id="szkolenie"
-        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-black to-orange-400 dark:to-orange-400 text-center"
+        className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 text-center"
       >
         {heading}
       </h2>
@@ -101,7 +101,7 @@ function Training() {
           </div>
         </div>
       </div>
-      <p>
+      <p className="text-neutral-950 dark:text-neutral-500">
         Słuchamy Twoich potrzeb – to pierwszy i najważniejszy krok do idealnej
         fryzury, aby wybrać najlepszą technikę strzyżenia oraz sprostać
         wszystkim Twoim oczekiwaniom. Rekomendujemy dla Ciebie – co możemy
