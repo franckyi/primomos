@@ -1,3 +1,4 @@
+import { Metadata } from "next/types";
 import IntroText from "./ui/intro-text";
 import Services from "./ui/services";
 import Training from "./ui/training";
@@ -9,6 +10,12 @@ const main = {
   baseClasses:
     "flex min-h-screen flex-col gap-4 lg:gap-16 items-center justify-between pt-0",
   themeClasses: "bg-white dark:bg-neutral-950",
+};
+
+export const metadata: Metadata = {
+  title: "Primo MOS Barber Shop - Gdańsk",
+  description:
+    "Gdzie pasja i profesjonalizm spotykają się, by zapewnić Ci niezapomniane doświadczenie fryzjerskie. Nasza misja to nie tylko strzyżenie, ale tworzenie stylu, który podkreśli Twój indywidualizm i charakter",
 };
 
 export default function Home() {
