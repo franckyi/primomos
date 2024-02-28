@@ -13,12 +13,12 @@ const cta = {
   label: "Umów się na wizytę",
   href: "tel:503489722",
   classes:
-    "px-4 py-4 ml-2 text-black rounded-full lg:bg-gradient-to-r lg:from-orange-400 lg:to-grey-500 hover:to-orange-400 dark:lg:bg-gradient-to-r dark:lg:from-orange-400 dark:lg:to-neutral-900 dark:hover:to-orange-400 font-bold",
+    "px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-grey-500 lg:hover:to-orange-400 dark:bg-gradient-to-r dark:from-orange-400 dark:to-neutral-900 dark:lg:hover:to-orange-400 font-bold",
 };
 
 const navigation = {
   containerClasses:
-    "flex items-center flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 p-3 lg:px-4 lg:pl-12 lg:w-full text-xs lg:text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-800 dark:text-neutral-300 uppercase",
+    "flex items-center flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 pt-3 lg:px-4 lg:pl-12 lg:w-full text-xs lg:text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-800 dark:text-neutral-300 uppercase",
   linkClasses:
     "py-2 border-solid border-b-2 border-transparent hover:border-orange-400 hover:text-white dark:hover:text-orange-400",
 };

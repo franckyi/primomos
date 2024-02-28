@@ -13,6 +13,7 @@ function ThemeSwitcher({ handleThemeToggleClick }: ThemeSwitcherProps) {
       <FormControlLabel
         control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
         label=""
+        className="m-0"
         onClick={handleThemeToggleClick}
       />
     </FormGroup>
