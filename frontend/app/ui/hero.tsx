@@ -3,7 +3,7 @@ import CheckIsHome from "../lib/check-pathname";
 import hero from "../data/hero";
 
 const heroDefaultClasses =
-  "flex max-md:items-end max-md:pb-16 items-center w-full max-md:h-screen bg-hero-light dark:bg-hero bg-no-repeat bg-cover overflow-hidden";
+  "flex max-md:items-end max-md:pb-16 items-center w-full max-md:mb-16 bg-hero-light dark:bg-hero bg-no-repeat bg-cover overflow-hidden";
 
 interface HeroProps {
   heading: string | null;
@@ -11,7 +11,9 @@ interface HeroProps {
 
 function Hero({ heading }: HeroProps) {
   let isHome: boolean = CheckIsHome() ? true : false;
-  let heroHomeClasses: string = isHome ? "lg:min-h-screen" : "lg:h-48";
+  let heroHomeClasses: string = isHome
+    ? "lg:min-h-screen max-md:h-screen"
+    : "lg:h-48 max-md:h-80";
   return (
     <header className={`${heroDefaultClasses} ${heroHomeClasses}`}>
       {isHome && (

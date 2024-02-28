@@ -18,7 +18,7 @@ const cta = {
 
 const navigation = {
   containerClasses:
-    "flex items-center flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 pt-3 lg:px-4 lg:pl-12 lg:w-full text-xs lg:text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-800 dark:text-neutral-300 uppercase",
+    "flex items-center flex-wrap lg:flex-nowrap justify-center gap-4 lg:gap-16 pt-3 lg:px-4 lg:pl-12 lg:w-full lg:text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-800 dark:text-neutral-300 uppercase",
   linkClasses:
     "py-2 border-solid border-b-2 border-transparent hover:border-orange-400 hover:text-white dark:hover:text-orange-400",
 };
