@@ -13,7 +13,7 @@ function Hero({ heading }: HeroProps) {
   let isHome: boolean = CheckIsHome() ? true : false;
   let heroHomeClasses: string = isHome
     ? "lg:min-h-screen max-md:h-screen"
-    : "lg:h-48 max-md:h-80";
+    : "lg:h-48 max-md:h-96";
   return (
     <header className={`${heroDefaultClasses} ${heroHomeClasses}`}>
       {isHome && (

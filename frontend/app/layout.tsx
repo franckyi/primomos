@@ -9,6 +9,7 @@ import AppBar from "./ui/common/app-bar/app-bar";
 import { Context, createContext, useState } from "react";
 
 const heading = "Primo MOS";
+const bodyClasses = "bg-white dark:bg-neutral-950 dark:text-neutral-400";
 const ThemeContext: Context<null | string> = createContext<null | string>(null);
 
 function RootLayout({
@@ -29,7 +30,7 @@ function RootLayout({
   return (
     <ThemeContext.Provider value={theme}>
       <html lang="pl" className={`scroll-smooth ${theme}`}>
-        <body className={poppins.className}>
+        <body className={`${poppins.className} ${bodyClasses}`}>
           <AppBar handleThemeToggleClick={handleThemeToggleClick} />
           <Hero heading={heading} />
           {children}

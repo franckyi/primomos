@@ -15,7 +15,7 @@ export default function IntroText() {
     <section className="mx-8 lg:mx-24 2xl:mx-80">
       <h2
         id="onas"
-        className="p-8 lg:pl-8 mb-8 lg:my-16 w-full lg:w-2/4 text-3xl lg:text-5xl lg:mr-auto bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 text-center"
+        className="p-8 lg:pl-8 mb-8 lg:my-16 w-full lg:w-2/4 text-3xl lg:text-5xl lg:mr-auto bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 dark:text-white text-center"
       >
         {heading}
       </h2>

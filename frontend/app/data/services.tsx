@@ -3,7 +3,7 @@ const services = {
     "m-8 lg:mx-24 my-16 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left border border-1 border-orange-400 dark:border-orange-400 text-neutral-800 dark:text-neutral-400",
   itemClasses:
     "group rounded-lg border border-transparent p-8 m-4 transition-colors hover:border-orange-400 hover:bg-gray-100 hover:dark:border-orange-400 hover:dark:bg-neutral-800/30",
-  headingClasses: "mb-3 text-2xl font-semibold",
+  headingClasses: "mb-3 text-2xl font-semibold dark:text-neutral-300",
   items: [
     {
       id: 0,
