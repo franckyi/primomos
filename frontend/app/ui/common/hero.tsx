@@ -1,6 +1,6 @@
 "use client";
-import CheckIsHome from "../lib/check-pathname";
-import hero from "../data/hero";
+import CheckIsHome from "../../lib/check-pathname";
+import hero from "../../data/hero";
 
 const heroDefaultClasses =
   "flex max-md:items-end max-md:pb-16 items-center w-full max-md:mb-16 bg-hero-light dark:bg-hero bg-no-repeat bg-cover overflow-hidden";

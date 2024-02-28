@@ -1,7 +1,7 @@
 "use client";
 import "./globals.css";
-import { poppins } from "./ui/fonts";
-import Hero from "./ui/hero";
+import { poppins } from "./ui/common/fonts";
+import Hero from "./ui/common/hero";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Image from "next/image";

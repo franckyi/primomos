@@ -1,7 +1,7 @@
 import { Metadata } from "next/types";
-import IntroText from "./ui/intro-text";
-import Services from "./ui/services";
-import Training from "./ui/training";
+import IntroText from "./ui/home/intro-text";
+import Services from "./ui/home/services";
+import Training from "./ui/home/training";
 import PhoneIcon from "@mui/icons-material/Phone";
 import HomeImages from "./ui/home/home-images";
 import "./ui/home/video.css";
