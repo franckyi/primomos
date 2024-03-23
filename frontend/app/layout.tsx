@@ -7,6 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import Image from "next/image";
 import AppBar from "./ui/common/app-bar/app-bar";
 import { Context, createContext, useState } from "react";
+import Link from "next/link";
 
 const heading = "Primo MOS";
 const bodyClasses = "bg-white dark:bg-neutral-950 dark:text-neutral-400";
@@ -63,6 +64,9 @@ function RootLayout({
               <InstagramIcon />
             </a>
             <p> ul. Romana Dmowskiego 6, 80-243 Gdańsk</p>
+            <Link title="Regulamin" href="/regulamin">
+              Regulamin
+            </Link>
           </footer>
         </body>
       </html>

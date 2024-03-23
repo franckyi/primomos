@@ -32,7 +32,7 @@ export default function Home() {
         className="my-16 px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-white dark:bg-gradient-to-r dark:from-orange-400 dark:to-neutral-900 hover:to-orange-400 dark:hover:to-orange-400 font-bold"
       >
         <PhoneIcon />
-        Skontaktuj się z nami
+        Umów się na wizytę
       </a>
     </main>
   );

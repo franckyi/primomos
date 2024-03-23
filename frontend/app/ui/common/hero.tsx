@@ -3,7 +3,7 @@ import CheckIsHome from "../../lib/check-pathname";
 import hero from "../../data/hero";
 
 const heroDefaultClasses =
-  "flex max-md:items-end max-md:pb-16 items-center w-full max-md:mb-16 bg-hero-light dark:bg-hero bg-no-repeat bg-cover overflow-hidden";
+  "flex max-md:items-end max-md:pb-16 items-center w-full bg-hero-light dark:bg-hero bg-no-repeat bg-cover overflow-hidden";
 
 interface HeroProps {
   heading: string | null;
