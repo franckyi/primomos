@@ -4,7 +4,7 @@ import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 const heading = "Szkolenia";
 function getIntro() {
   return (
-    <p className="w-1/4 text-neutral-800 dark:text-neutral-500">
+    <p className="lg:w-1/4 text-neutral-800 dark:text-neutral-500">
       Jestem dyplomowanym Barberem i{" "}
       <em className="text-orange-400 font-bold">
         chcę się podzielić moją wiedzą i dużym doświadczeniem
@@ -26,7 +26,7 @@ function Training() {
         {heading}
       </h2>
       <div className="my-24 flex flex-col lg:flex-row gap-16">
-        <p className="w-1/4 text-2xl italic text-orange-400 font-bold">
+        <p className="lg:w-1/4 text-2xl italic text-orange-400 font-bold">
           <span>
             <FormatQuoteIcon className="block text-8xl" />
           </span>
@@ -35,7 +35,7 @@ function Training() {
           nauki zawodu.
         </p>
         {getIntro()}
-        <p className="w-2/4 text-neutral-800 dark:text-neutral-500">
+        <p className="lg:w-2/4 text-neutral-800 dark:text-neutral-500">
           Kurs  Barberski  dla początkujących ( od zera do barbera ) Ten kurs
           fryzjerstwa męskiego to 100 godzin od całkowitych PODSTAW rozłożony na
           4 tygodnie. ·  Fach, wiedzę, znajomości i pasję. Przez cztery tygodnie
