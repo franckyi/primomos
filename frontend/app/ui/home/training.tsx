@@ -109,8 +109,7 @@ function Training() {
         dla Ciebie najlepsza. Specjalnie dobrana i spersonalizowana stylizacja,
         która spełni wszystkie Twoje oczekiwania. Dobieramy strzyżenie – każdy
         ruch nożyczkami i maszynką jest niezwykle istotny. Precyzyjne i dokładne
-        strzyżenie to podstawa. Dlatego należy wybrać doświadczonego Stylistę z
-        Milek Design. Stylizujemy fryzurę – Efekt końcowy zawdzięczamy
+        strzyżenie to podstawa. Stylizujemy fryzurę – Efekt końcowy zawdzięczamy
         modelowaniu i odpowiedniej stylizacji. Chcesz aby fryzura układała się
         sama? Dobierzemy do tego odpowiednie strzyżenie. Jeśli stylizujesz
         włosy, podpowiemy jak to zrobić i jakich produktów użyć, aby osiągnąć
