@@ -1,10 +1,10 @@
 import Image from "next/image";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 
-const heading = "Szkolenie";
+const heading = "Szkolenia";
 function getIntro() {
   return (
-    <p className="w-3/4 text-neutral-800 dark:text-neutral-500">
+    <p className="w-1/4 text-neutral-800 dark:text-neutral-500">
       Jestem dyplomowanym Barberem i{" "}
       <em className="text-orange-400 font-bold">
         chcę się podzielić moją wiedzą i dużym doświadczeniem
@@ -20,33 +20,13 @@ function Training() {
   return (
     <section className="mx-8 lg:mx-24">
       <h2
-        id="szkolenie"
+        id="szkolenia"
         className="p-8 pl-8 mt-16 mb-0 lg:w-1/3 text-3xl lg:text-5xl mr-auto bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 dark:text-white text-center"
       >
         {heading}
       </h2>
-      <p className="my-16 p-8 lg:w-2/3 mx-auto text-center">
-        Kurs Barberski dla początkujących ( od zera do barbera ) Ten kurs
-        fryzjerstwa męskiego to 100 godzin od całkowitych PODSTAW rozłożony na 4
-        tygodnie. · Fach, wiedzę, znajomości i pasję. Przez cztery tygodnie
-        przekażemy Ci podstawy warsztatu pracy barbera. · Będziesz więc od zera
-        przygotowany do rozpoczęcia swojej przygody w zawodzie Barbera. Nauczymy
-        Cię: Podstawowych technik strzyżenia fryzur męskich oraz ich stylizacji,
-        a także nauka umiejętności doboru fryzury do kształtu głowy, Trymowania
-        i pielęgnacji brody oraz zarostu przy użyciu różnych narzędzi takich
-        jak: maszynka, nożyczki oraz brzytwa, nauka umiejętności doboru zarostu
-        do kształtu twarzy, Nauka umiejętności posługiwania się brzytwą, nauka
-        golenia twarzy i głowy przy użyciu brzytwy oraz pielęgnacja po goleniu.
-        Jak przygotować zarost przy pomocy ciepłego ręcznika. Jak przygotować
-        zarost przy pomocy ciepłego ręcznika. Rodzaje i charakterystyka
-        kosmetyków oraz ich działalnie. Usług dodatkowych, takich jak:
-        woskowanie nosa oraz repigmentacja włosów. Obsługi klienta. nauczymy cię
-        jak przeprowadzić wywiad odnośnie oczekiwań klienta oraz jak zapewnić mu
-        jak najlepszy komfort podczas usługi. Dokumentowanie swoich prac i
-        budowanie portfolio podczas kursu.
-      </p>
       <div className="my-24 flex flex-col lg:flex-row gap-16">
-        <p className="text-2xl italic text-orange-400 font-bold">
+        <p className="w-1/4 text-2xl italic text-orange-400 font-bold">
           <span>
             <FormatQuoteIcon className="block text-8xl" />
           </span>
@@ -55,15 +35,27 @@ function Training() {
           nauki zawodu.
         </p>
         {getIntro()}
-        <Image
-          src={"/interior.webp"}
-          height={320}
-          width={480}
-          alt="Primo MOS logo"
-          priority
-          draggable="false"
-          className=""
-        />
+        <p className="w-2/4 text-neutral-800 dark:text-neutral-500">
+          Kurs  Barberski  dla początkujących ( od zera do barbera ) Ten kurs
+          fryzjerstwa męskiego to 100 godzin od całkowitych PODSTAW rozłożony na
+          4 tygodnie. ·  Fach, wiedzę, znajomości i pasję. Przez cztery tygodnie
+          przekażemy  Ci podstawy warsztatu pracy barbera. ·  Będziesz więc od
+          zera przygotowany do rozpoczęcia swojej przygody w zawodzie Barbera.
+          Nauczymy Cię: Podstawowych technik strzyżenia fryzur męskich oraz ich
+          stylizacji, a także nauka  umiejętności doboru fryzury do kształtu
+          głowy, Trymowania i pielęgnacji brody oraz zarostu przy użyciu różnych
+          narzędzi takich jak: maszynka, nożyczki oraz brzytwa, nauka
+          umiejętności doboru zarostu do kształtu twarzy, Nauka umiejętności
+          posługiwania się brzytwą, nauka golenia twarzy i głowy przy użyciu
+          brzytwy oraz pielęgnacja po goleniu. Jak przygotować zarost przy
+          pomocy ciepłego ręcznika. Jak przygotować zarost przy pomocy ciepłego
+          ręcznika. Rodzaje i charakterystyka kosmetyków oraz ich działalnie.
+          Usług dodatkowych, takich jak: woskowanie nosa oraz repigmentacja
+          włosów. Obsługi klienta. nauczymy cię jak przeprowadzić  wywiad
+          odnośnie oczekiwań klienta oraz jak zapewnić mu jak najlepszy komfort
+          podczas usługi. Dokumentowanie  swoich prac i budowanie portfolio
+          podczas kursu.
+        </p>
       </div>
 
       <div className="my-24 flex flex-col lg:flex-row bg-orange-400">
