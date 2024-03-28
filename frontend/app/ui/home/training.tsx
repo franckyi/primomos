@@ -25,6 +25,26 @@ function Training() {
       >
         {heading}
       </h2>
+      <p className="my-16 p-8 lg:w-2/3 mx-auto text-center">
+        Kurs Barberski dla początkujących ( od zera do barbera ) Ten kurs
+        fryzjerstwa męskiego to 100 godzin od całkowitych PODSTAW rozłożony na 4
+        tygodnie. · Fach, wiedzę, znajomości i pasję. Przez cztery tygodnie
+        przekażemy Ci podstawy warsztatu pracy barbera. · Będziesz więc od zera
+        przygotowany do rozpoczęcia swojej przygody w zawodzie Barbera. Nauczymy
+        Cię: Podstawowych technik strzyżenia fryzur męskich oraz ich stylizacji,
+        a także nauka umiejętności doboru fryzury do kształtu głowy, Trymowania
+        i pielęgnacji brody oraz zarostu przy użyciu różnych narzędzi takich
+        jak: maszynka, nożyczki oraz brzytwa, nauka umiejętności doboru zarostu
+        do kształtu twarzy, Nauka umiejętności posługiwania się brzytwą, nauka
+        golenia twarzy i głowy przy użyciu brzytwy oraz pielęgnacja po goleniu.
+        Jak przygotować zarost przy pomocy ciepłego ręcznika. Jak przygotować
+        zarost przy pomocy ciepłego ręcznika. Rodzaje i charakterystyka
+        kosmetyków oraz ich działalnie. Usług dodatkowych, takich jak:
+        woskowanie nosa oraz repigmentacja włosów. Obsługi klienta. nauczymy cię
+        jak przeprowadzić wywiad odnośnie oczekiwań klienta oraz jak zapewnić mu
+        jak najlepszy komfort podczas usługi. Dokumentowanie swoich prac i
+        budowanie portfolio podczas kursu.
+      </p>
       <div className="my-24 flex flex-col lg:flex-row gap-16">
         <p className="text-2xl italic text-orange-400 font-bold">
           <span>

@@ -1,7 +1,7 @@
 "use client";
 import { useState, ChangeEvent, FormEvent } from "react";
 
-const heading = "Napisz do nas";
+const heading = "lub napisz do nas";
 
 const initialFormData = {
   name: "",
@@ -50,7 +50,11 @@ function ContactForm() {
 
   return (
     <div className="md:w-1/2 mx-auto">
-      <h2 className="p-8 mb-4 text-3xl lg:text-5xl bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 dark:text-white text-center">
+      <span className="text-2xl">Zadzwoń do nas na </span>
+      <a href="tel:+48503489722" className="text-3xl text-orange-400">
+        503 48 97 22
+      </a>
+      <h2 className="p-8 my-4 text-3xl lg:text-5xl bg-gradient-to-r from-neutral-50 dark:from-neutral-950 to-orange-400 dark:to-orange-400 dark:text-white text-center">
         {heading}
       </h2>
       <form onSubmit={handleSubmit} className="flex flex-col" method="POST">

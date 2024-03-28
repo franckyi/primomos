@@ -63,6 +63,12 @@ function RootLayout({
             >
               <InstagramIcon />
             </a>
+            <p className="my-2">
+              Zadzwoń do nas na{" "}
+              <a href="tel:+48503489722" className="font-bold">
+                503 48 97 22
+              </a>
+            </p>
             <p> ul. Romana Dmowskiego 6, 80-243 Gdańsk</p>
             <Link title="Regulamin" href="/regulamin">
               Regulamin

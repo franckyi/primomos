@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <Training />
       <a
-        href="tel:503489722"
+        href="https://booksy.com/pl-pl/5657_primo-mos-barber-shop_barber-shop_20383_gdansk#ba_s=sh_1"
         className="my-16 px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-white dark:bg-gradient-to-r dark:from-orange-400 dark:to-neutral-900 hover:to-orange-400 dark:hover:to-orange-400 font-bold"
       >
         <PhoneIcon />
