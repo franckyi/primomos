@@ -55,7 +55,7 @@ function AppBar({ handleThemeToggleClick }: AppBarProps) {
           </a>{" "}
           <PhoneInfoPopper />
         </div>
-        <p className="md:hidden m-4 w-3/4 text-neutral-800 dark:text-neutral-500">
+        <p className="md:hidden m-4 max-md:mt-24 w-3/4 text-neutral-800 dark:text-neutral-500">
           <InfoIcon className="mr-2 text-orange-400" /> Zgłoszenia na szkolenia
           przyjmujemy pod nr telefonu{" "}
           <a
