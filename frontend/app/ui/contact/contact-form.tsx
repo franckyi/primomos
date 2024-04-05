@@ -11,7 +11,7 @@ const initialFormData = {
   message: "",
 };
 
-function ContactForm() {
+export default function ContactForm() {
   const [formData, setFormData] = useState(initialFormData);
   const [submitted, setSubmitted] = useState(false);
 
@@ -110,9 +110,10 @@ function ContactForm() {
           type="submit"
           className="px-4 py-4 ml-2 text-black rounded-full bg-gradient-to-r from-orange-400 to-white dark:bg-gradient-to-r dark:from-orange-400 dark:to-neutral-900 hover:to-orange-400 dark:hover:to-orange-400 font-bold hover:cursor-pointer uppercase"
         />
+        <p className="my-4 text-xs">
+          * Klikając przycisk wyślij akceptujesz regulamin.
+        </p>
       </form>
     </div>
   );
 }
-
-export default ContactForm;
