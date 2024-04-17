@@ -1,5 +1,6 @@
 "use client";
 import { useState, ChangeEvent, FormEvent } from "react";
+import RegulaminDialog from "../RegulaminDialog/RegulaminDialog";
 
 const heading = "lub napisz do nas";
 
@@ -112,6 +113,9 @@ export default function ContactForm() {
         />
         <p className="my-4 text-xs">
           * Klikając przycisk wyślij akceptujesz regulamin.
+          <br />
+          <br />
+          <RegulaminDialog />
         </p>
       </form>
     </div>
